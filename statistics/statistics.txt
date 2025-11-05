@@ -1,0 +1,5 @@
+Total Predictions: 4
+Fallback Count: 2
+Fallback Rate: 50.00%
+Average Confidence: 0.7665
+Average Fallback Confidence: 0.5330

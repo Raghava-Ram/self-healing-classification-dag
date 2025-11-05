@@ -1,0 +1,34 @@
+digraph SelfHealingDAG {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontname="Arial"];
+  edge [fontname="Arial", fontsize=10];
+  
+  // Main nodes
+  UserInput [label="Text Input", shape=ellipse, color=blue, style=filled, fillcolor=lightblue];
+  Inference [label="Inference Node\n(Prediction)", shape=box, color=green, style=filled, fillcolor=lightgreen];
+  ConfidenceCheck [label="Confidence Check\n(Threshold: 0.7)", shape=diamond, color=orange, style=filled, fillcolor=lightyellow];
+  Fallback [label="Fallback Node\n(User/Backup Model)", shape=box, color=red, style=filled, fillcolor=lightpink];
+  Output [label="Final Prediction", shape=note, color=darkgreen, style=filled, fillcolor=palegreen];
+  Statistics [label="Statistics Tracker", shape=note, color=purple, style=filled, fillcolor=thistle];
+  
+  // Main flow
+  UserInput -> Inference;
+  Inference -> ConfidenceCheck;
+  ConfidenceCheck -> Fallback [label="Low Confidence"];
+  ConfidenceCheck -> Output [label="High Confidence"];
+  Fallback -> Output;
+  
+  // Statistics tracking
+  Inference -> Statistics [style=dashed];
+  Fallback -> Statistics [style=dashed];
+  
+  // Legend
+  subgraph cluster_legend {
+    label = "Legend";
+    style=dashed;
+    node [shape=box, width=1.5];
+    Process [label="Process", style=filled, fillcolor=lightgreen];
+    Decision [label="Decision", shape=diamond, style=filled, fillcolor=lightyellow];
+    Log [label="Data/Log", shape=note, style=filled, fillcolor=thistle];
+  }
+}

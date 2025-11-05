@@ -1,0 +1,70 @@
+2025-11-05 20:44:58,988 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 20:45:16,637 - __main__ - INFO - Inference: "The movie was painfully slow and boring...." | Pred: LABEL_0 | Conf: 0.5492
+2025-11-05 20:45:16,637 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:46:27,593 - __main__ - INFO - User provided label: Negative
+2025-11-05 20:48:47,527 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 20:48:52,944 - __main__ - INFO - Inference: "The movie was painfully slow and boring...." | Pred: LABEL_0 | Conf: 0.5492
+2025-11-05 20:48:52,944 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:50:57,189 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000184789E9CD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4181dd2c-1042-4dc3-93af-ac9d977a7ec4)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 20:50:57,189 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-11-05 20:51:17,409 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 20:51:30,406 - __main__ - INFO - Inference: "The movie was painfully slow and boring...." | Pred: LABEL_0 | Conf: 0.5492
+2025-11-05 20:51:30,406 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:54:09,452 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 20:54:23,956 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:54:38,909 - __main__ - INFO - User provided label: Negative
+2025-11-05 20:54:56,732 - __main__ - INFO - Low confidence prediction (0.5104), triggering fallback...
+2025-11-05 20:55:50,793 - __main__ - INFO - User provided label: Positive
+2025-11-05 20:58:47,187 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:59:12,367 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 20:59:25,033 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 20:59:38,829 - __main__ - INFO - User provided label: Negative
+2025-11-05 21:00:03,695 - __main__ - INFO - Low confidence prediction (0.5341), triggering fallback...
+2025-11-05 21:00:14,973 - __main__ - INFO - User provided label: Negative
+2025-11-05 21:07:46,782 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: b1af19e1-89b8-4380-8cc8-f3620375401a)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:07:46,782 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2025-11-05 21:07:59,845 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000270971C7880>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 2f32b024-f577-49d1-93ba-a7baacf1331c)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:07:59,846 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2025-11-05 21:08:13,900 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000270971C7BE0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 5d1ad792-fbc4-4bf8-9a8d-530bb75584db)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:08:13,900 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2025-11-05 21:08:29,945 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000270971C7F40>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e669d8d3-8d82-4fb5-8082-01e7e4a532c0)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:08:29,947 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2025-11-05 21:08:49,967 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000270971C7A90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3dc91341-5568-4303-8f3c-e2c432bcdc65)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:08:49,967 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2025-11-05 21:08:57,980 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /distilbert-base-uncased/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000270971C7730>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 63a2804e-0c94-4e3a-bcaf-3da23c354c64)')' thrown while requesting HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json
+2025-11-05 21:08:59,466 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 21:11:53,634 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 21:12:00,277 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 21:12:16,957 - __main__ - INFO - User provided label: Negative
+2025-11-05 21:26:13,473 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 21:26:45,915 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 21:27:03,245 - __main__ - INFO - User provided label: Negative
+2025-11-05 21:44:25,704 - classification_dag - ERROR - Error initializing backup model: name 'pipeline' is not defined
+2025-11-05 21:44:25,705 - classification_dag - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 21:45:37,275 - classification_dag - ERROR - Error initializing backup model: name 'pipeline' is not defined
+2025-11-05 21:45:37,275 - classification_dag - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 21:47:47,571 - classification_dag - INFO - User provided label: Positive
+2025-11-05 21:48:36,577 - classification_dag - INFO - User provided label: Positive
+2025-11-05 21:48:43,429 - classification_dag - INFO - Statistics saved to statistics
+2025-11-05 21:50:13,873 - classification_dag - INFO - User provided label: Negative
+2025-11-05 21:50:55,317 - classification_dag - INFO - User provided label: Positive
+2025-11-05 21:51:07,223 - classification_dag - INFO - User provided label: Negative
+2025-11-05 22:19:05,290 - __main__ - ERROR - Error initializing backup model: name 'pipeline' is not defined
+2025-11-05 22:19:05,290 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 22:19:43,060 - __main__ - INFO - Low confidence prediction (0.5492), triggering fallback...
+2025-11-05 22:19:52,377 - __main__ - INFO - User provided label: Negative
+2025-11-05 22:33:16,225 - __main__ - INFO - Initializing backup zero-shot model...
+2025-11-05 22:33:17,562 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-11-05 22:39:56,018 - __main__ - INFO - Successfully initialized backup zero-shot model
+2025-11-05 22:39:56,018 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 22:40:11,473 - __main__ - INFO - Low confidence prediction (0.5631), triggering fallback...
+2025-11-05 22:40:11,475 - __main__ - INFO - Using backup model for fallback
+2025-11-05 22:40:12,228 - __main__ - INFO - Backup model predicted: Negative (confidence: 0.9940)
+2025-11-05 22:40:52,147 - __main__ - INFO - Low confidence prediction (0.5042), triggering fallback...
+2025-11-05 22:40:52,147 - __main__ - INFO - Using backup model for fallback
+2025-11-05 22:40:52,623 - __main__ - INFO - Backup model predicted: Positive (confidence: 0.9952)
+2025-11-05 22:41:07,825 - __main__ - INFO - Initialized SentimentClassifier with model from ./fine_tuned_model
+2025-11-05 22:41:14,641 - __main__ - INFO - Low confidence prediction (0.5631), triggering fallback...
+2025-11-05 22:41:37,069 - __main__ - INFO - User provided label: Positive
+2025-11-05 22:41:53,535 - __main__ - INFO - Low confidence prediction (0.5049), triggering fallback...
+2025-11-05 22:42:06,652 - __main__ - INFO - User provided label: Positive

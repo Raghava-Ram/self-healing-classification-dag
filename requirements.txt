@@ -1,0 +1,11 @@
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+peft>=0.4.0
+accelerate>=0.20.0
+numpy>=1.24.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+matplotlib>=3.7.0  # For visualization and statistics
+scikit-learn>=1.0.0
+pandas>=1.3.0  # For data handling in statistics
